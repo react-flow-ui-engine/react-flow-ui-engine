@@ -39,6 +39,14 @@ jobs:
       - name: Build packages
         run: pnpm build
 
+      - name: Configure npm auth
+        run: |
+          echo "@react-flow-ui-engine:registry=https://registry.npmjs.org/" > ~/.npmrc
+          echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" >> ~/.npmrc
+          npm whoami
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Create release PR or publish to npm
         uses: changesets/action@v1
         with:
