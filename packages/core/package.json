@@ -1,6 +1,6 @@
 {
   "name": "@react-flow-ui-engine/core",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Framework-agnostic flow engine for UI journeys, wizards, onboarding, and conditional screens.",
   "type": "module",
   "main": "dist/index.cjs",

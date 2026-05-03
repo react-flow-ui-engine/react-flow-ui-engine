@@ -1,6 +1,6 @@
 {
   "name": "@react-flow-ui-engine/react",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "React bindings for react-flow-ui-engine: render declarative user journeys, wizards, and onboarding flows.",
   "type": "module",
   "main": "dist/index.cjs",
