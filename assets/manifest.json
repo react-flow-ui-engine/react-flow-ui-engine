@@ -1,0 +1,13 @@
+{
+  "name": "React Flow UI Engine Brand Assets",
+  "files": [
+    "svg/logo-mark.svg",
+    "svg/logo-lockup.svg",
+    "svg/npm-badge-icon.svg",
+    "svg/github-banner.svg",
+    "favicon/favicon.svg",
+    "favicon/favicon.ico",
+    "png/logo-mark-*.png",
+    "figma/brand-spec.md"
+  ]
+}

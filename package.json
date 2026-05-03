@@ -1,0 +1,47 @@
+{
+  "name": "react-flow-ui-engine-monorepo",
+  "private": true,
+  "version": "0.3.0",
+  "description": "Declarative flow orchestration for React UI journeys.",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "build": "pnpm -r --filter './packages/*' build",
+    "typecheck": "pnpm -r --filter './packages/*' typecheck",
+    "dev": "pnpm --filter react-flow-ui-engine-react-example dev",
+    "dev:onboarding": "pnpm --filter react-flow-ui-engine-onboarding-example dev",
+    "build:examples": "pnpm -r --filter './examples/*' build",
+    "pack:all": "pnpm -r --filter './packages/*' pack",
+    "publish:dry-run": "pnpm -r --filter './packages/*' publish --dry-run --no-git-checks",
+    "clean": "rm -rf packages/*/dist examples/*/dist docs/dist",
+    "docs:dev": "pnpm --dir docs dev",
+    "docs:build": "pnpm --dir docs build",
+    "check:examples": "pnpm -r --filter './examples/*' typecheck",
+    "check": "pnpm typecheck && pnpm build && pnpm build:examples && pnpm docs:build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "pnpm build && changeset publish"
+  },
+  "keywords": [
+    "react",
+    "flow",
+    "workflow",
+    "wizard",
+    "onboarding",
+    "state-machine",
+    "journey",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "@changesets/cli": "^2.29.6"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.5.1"
+  }
+}

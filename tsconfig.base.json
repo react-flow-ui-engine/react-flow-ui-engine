@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@react-flow-ui-engine/core": [
+        "packages/core/src/index.ts"
+      ],
+      "@react-flow-ui-engine/react": [
+        "packages/react/src/index.tsx"
+      ]
+    }
+  }
+}

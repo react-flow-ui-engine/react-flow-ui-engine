@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">React Flow UI Engine Logo Mark</title>
+  <desc id="desc">A modern flow graph mark with three connected UI nodes representing conditional React UI flows.</desc>
+  <defs>
+    <linearGradient id="flowGradient" x1="96" y1="86" x2="416" y2="426" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.52" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="160" y1="158" x2="360" y2="356" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="softShadow" x="48" y="48" width="416" height="416" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect x="56" y="56" width="400" height="400" rx="96" fill="#0F172A"/>
+  <g filter="url(#softShadow)">
+    <path d="M168 176C208 176 226 224 256 256C286 288 304 336 344 336" stroke="url(#flowGradient)" stroke-width="36" stroke-linecap="round"/>
+    <path d="M168 176C225 176 255 176 304 176" stroke="url(#accentGradient)" stroke-width="28" stroke-linecap="round"/>
+    <path d="M286 176L324 176L304 144" stroke="url(#accentGradient)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="160" cy="176" r="48" fill="#F8FAFC"/>
+    <circle cx="304" cy="176" r="42" fill="#F8FAFC"/>
+    <circle cx="352" cy="336" r="48" fill="#F8FAFC"/>
+    <circle cx="160" cy="176" r="20" fill="url(#flowGradient)"/>
+    <rect x="282" y="154" width="44" height="44" rx="12" fill="url(#accentGradient)"/>
+    <path d="M334 336L350 352L376 320" stroke="url(#flowGradient)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
