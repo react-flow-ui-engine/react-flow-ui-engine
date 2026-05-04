@@ -1,6 +1,6 @@
 {
   "name": "@react-flow-ui-engine/react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React bindings for react-flow-ui-engine: render declarative user journeys, wizards, and onboarding flows.",
   "type": "module",
   "main": "dist/index.cjs",
@@ -21,10 +21,14 @@
   "sideEffects": false,
   "keywords": [
     "react",
+    "flow",
     "flow-engine",
+    "state-machine",
     "wizard",
     "onboarding",
-    "conditional-ui",
+    "multi-step-form",
+    "ui-flow",
+    "workflow",
     "typescript"
   ],
   "repository": {

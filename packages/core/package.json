@@ -1,6 +1,6 @@
 {
   "name": "@react-flow-ui-engine/core",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Framework-agnostic flow engine for UI journeys, wizards, onboarding, and conditional screens.",
   "type": "module",
   "main": "dist/index.cjs",
@@ -20,11 +20,15 @@
   ],
   "sideEffects": false,
   "keywords": [
+    "react",
+    "flow",
     "flow-engine",
-    "workflow",
     "state-machine",
     "wizard",
     "onboarding",
+    "multi-step-form",
+    "ui-flow",
+    "workflow",
     "typescript"
   ],
   "repository": {
